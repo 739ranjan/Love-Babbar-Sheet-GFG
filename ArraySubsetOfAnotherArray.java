@@ -32,7 +32,7 @@ class SubsetOfAnotherArray {
             }
             
             
-            Compute obj = new Compute();
+            Solution obj = new Solution();
             System.out.println(obj.isSubset( a1, a2, n, m));
             
         }
@@ -45,7 +45,7 @@ class SubsetOfAnotherArray {
 //User function Template for Java
 
 
-class Compute {
+class Solution {
     public String isSubset( long a1[], long a2[], long n, long m) {
         Map<Long, Integer> map1 = new TreeMap<>();
         for(int i=0; i<n; i++){
